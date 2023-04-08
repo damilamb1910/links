@@ -35,13 +35,13 @@ if(color==='web'){
     linkedin.style.backgroundColor='#009EE0'
 }else if(color==='instagram'){
     instagram.style.color='#FFFFFF'
-    instagram.style.backgroundColor='#009EE0'
+    instagram.style.backgroundColor='#EFD512'
 }else if(color==='whatsapp'){
     whatsapp.style.color='#FFFFFF'
-    whatsapp.style.backgroundColor='#009EE0'
+    whatsapp.style.backgroundColor='orange'
 }else if(color==='github'){
     github.style.color='#FFFFFF'
-    github.style.backgroundColor='#009EE0'
+    github.style.backgroundColor='#EFD512'
 }
 
 }
@@ -83,7 +83,7 @@ document.addEventListener('click',(e)=>{
         color='instagram'
        broly.className='broly'
        setTimeout(()=>{desaparecer(color)},3000)
-       setTimeout(()=>{pintar(color)},1000)
+       setTimeout(()=>{pintar(color)},2000)
        setTimeout(()=>{desPintar(color)},3000)
        setTimeout(()=>{window.open('https://www.instagram.com/damianlamberti/', '_blank')},3000)
       }else if(e.target.closest('#github')){
@@ -99,7 +99,7 @@ document.addEventListener('click',(e)=>{
        setTimeout(()=>{desaparecer(color)},3000)
        setTimeout(()=>{pintar(color)},1000)
        setTimeout(()=>{desPintar(color)},3000)
-       setTimeout(()=>{window.open('https://wa.me/1136684089?text=¡Hola!%Vamos%a%crear%algo', '_blank')},3000)
+       setTimeout(()=>{window.open('https://wa.me/541136684089?text=¡Hola!+Vamos+a+crear+algo', '_blank')},3000)
       }
 
 })
