@@ -85,21 +85,21 @@ document.addEventListener('click',(e)=>{
        setTimeout(()=>{desaparecer(color)},3000)
        setTimeout(()=>{pintar(color)},1000)
        setTimeout(()=>{desPintar(color)},3000)
-       setTimeout(()=>{window.open('https://www.linkedin.com/in/damianlamberti/', '_blank')},3000)
+       setTimeout(()=>{window.open('https://www.instagram.com/damianlamberti/', '_blank')},3000)
       }else if(e.target.closest('#github')){
         color='github'
        freezer.className='freezer'
        setTimeout(()=>{desaparecer(color)},3000)
        setTimeout(()=>{pintar(color)},1000)
        setTimeout(()=>{desPintar(color)},3000)
-       setTimeout(()=>{window.open('https://www.linkedin.com/in/damianlamberti/', '_blank')},3000)
+       setTimeout(()=>{window.open('https://github.com/damilamb1910', '_blank')},3000)
       }else if(e.target.closest('#whatsapp')){
         color='whatsapp'
        piccolo.className='piccolo'
        setTimeout(()=>{desaparecer(color)},3000)
        setTimeout(()=>{pintar(color)},1000)
        setTimeout(()=>{desPintar(color)},3000)
-       setTimeout(()=>{window.open('https://www.linkedin.com/in/damianlamberti/', '_blank')},3000)
+       setTimeout(()=>{window.open('https://wa.me/1136684089?text=¡Hola!%Vamos%a%crear%algo', '_blank')},3000)
       }
 
 })
