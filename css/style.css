@@ -1,0 +1,94 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #363535;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  header img{
+    width: 100%;
+    
+  }
+
+  .prophile__photo{
+    margin-top: 20px;
+   width: 100px;
+   padding: 5px;
+    border-radius: 50px;
+    background: #363535;
+box-shadow: inset 20px 20px 60px #2e2d2d,
+            inset -20px -20px 60px #3e3d3d;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #363535;
+    position: relative;
+  }
+  .card__link{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-radius: 50px;
+    border-radius: 50px;
+    background: #363535;
+    box-shadow:  17px 17px 33px #1c1c1c,
+                 -17px -17px 33px #504e4e;
+    align-items: center;
+    padding: 10px;
+    color: gray;
+
+  }
+  a{
+    
+    text-decoration: none;
+  }
+  .vegueta__linkedin{
+    display: block;
+  position: absolute;
+    top: 250px;
+    left: 180px;
+  }
+  .freezer{
+    display: block;
+  position: absolute;
+    top: 70px;
+    left: 0px;
+  }
+  .piccolo{
+    display: block;
+  position: absolute;
+    top: 425px;
+    left: -5px;
+  }
+.broly{
+  display: block;
+  position: absolute;
+    top: 220px;
+    left: 0px;
+}
+
+  .goku {
+    display: none;
+    
+  }
+  
+.goku__web{
+  display: block;
+  position: absolute;
+    top: 280px;
+    left: 120px;;
+}
