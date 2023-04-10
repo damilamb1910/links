@@ -18,7 +18,9 @@ body {
     width: 100%;
     
   }
-
+h3{
+  text-align: center;
+}
   .prophile__photo{
     margin-top: 20px;
    width: 100px;
@@ -35,6 +37,7 @@ box-shadow: inset 20px 20px 60px #2e2d2d,
     align-items: center;
     background-color: #363535;
     position: relative;
+    margin-bottom: 50px;
   }
   .card__link{
     display: flex;
@@ -50,35 +53,36 @@ box-shadow: inset 20px 20px 60px #2e2d2d,
     align-items: center;
     padding: 10px;
     color: gray;
+    
 
   }
   a{
-    
+   
     text-decoration: none;
   }
   .vegueta__linkedin{
     display: block;
   position: absolute;
     top: 250px;
-    left: 180px;
+    right: -10vw;
   }
   .freezer{
     display: block;
   position: absolute;
     top: 70px;
-    left: 0px;
+    left: 0vw;
   }
   .piccolo{
     display: block;
   position: absolute;
     top: 425px;
-    left: -5px;
+    left: -5vw;
   }
 .broly{
   display: block;
   position: absolute;
     top: 220px;
-    left: 0px;
+    left: 0vw;
 }
 
   .goku {
@@ -90,5 +94,109 @@ box-shadow: inset 20px 20px 60px #2e2d2d,
   display: block;
   position: absolute;
     top: 280px;
-    left: 120px;;
+    right: -10vw;
 }
+
+
+@media only screen and (min-width: 700px) and (max-width: 768px) {
+  .card__link{
+    width: 40vh;
+  }
+  header img{
+    display: none;
+    
+  }
+  .freezer{
+   left: 0vw;
+
+  }
+  
+  .vegueta__linkedin{
+    
+    
+   right: 0vw;
+  }
+  .goku__web{
+    
+      top: 300px;
+      right: 0vw;
+  }
+  .piccolo{
+    top: 450px;
+    left: 0vw;
+  }
+}
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1439px) {
+  .card__link{
+    width: 50vw;
+  }
+  header img{
+    display: none;
+    
+  }
+  .freezer{
+   left: 0vw;
+
+  }
+  .broly{
+    
+      
+      left: 4vw;
+  }
+  .vegueta__linkedin{
+    
+    
+   right: 0vw;
+  }
+  .goku__web{
+    
+      top: 300px;
+      right: 0vw;
+      
+  }
+  .piccolo{
+    top: 450px;
+    left: 0vw;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 1440px) {
+  .card__link{
+    width: 55vw;
+
+  }
+  header img{
+    display: none;
+    
+  }
+  .freezer{
+   left: 4vw;
+  }
+  .broly{
+    
+      
+      left: 5vw;
+  }
+  .vegueta__linkedin{
+    
+    
+   right: 5vw;
+  }
+  .goku__web{
+    
+      top: 300px;
+      right: 5vw;
+  }
+  .piccolo{
+    top: 450px;
+    left: 1vw;
+  }
+}
+
+
