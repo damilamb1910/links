@@ -53,6 +53,7 @@ box-shadow: inset 20px 20px 60px #2e2d2d,
     align-items: center;
     padding: 10px;
     color: gray;
+    cursor: pointer;
     
 
   }
