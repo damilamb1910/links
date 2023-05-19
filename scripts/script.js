@@ -71,7 +71,7 @@ document.addEventListener('click',(e)=>{
        setTimeout(()=>{desaparecer(color)},3000)
        setTimeout(()=>{pintar(color)},1000)
        setTimeout(()=>{desPintar(color)},3000)
-       setTimeout(()=>{window.open('https://damianlambert.web.app/', '_blank')},3000)
+       setTimeout(()=>{window.open('https://damianlamberti.netlify.app/', '_blank')},3000)
       }else if(e.target.closest('#linkedin')){
         color='linkedin'
        vegueta.className='vegueta__linkedin'
